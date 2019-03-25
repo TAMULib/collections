@@ -189,6 +189,7 @@
 
        <!-- NOT using marc_display because it is large and will slow things down for search results -->
        <str name="fl">
+         collection,
          id, 
          score,
          author_display,
@@ -201,6 +202,7 @@
          published_display,
          published_vern_display,
          pub_date,
+         thumbnail_path,
          title_display,
          title_vern_display,
          subject_topic_facet,
@@ -408,4 +410,3 @@
   </requestHandler>
 
 </config>
-
